@@ -1,6 +1,6 @@
-# 2018 Top Non Profits
+# 2019 Top Non Profits
 
-2018 list of top non profits in Minnesota
+2019 list of top non profits in Minnesota
 
 ## Data
 
