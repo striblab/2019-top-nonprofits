@@ -100,7 +100,13 @@
       </div>
 
       <div class="financial-data excess">
-        <span>{ getValue(nonprofit_finances, 'excess', publishYear) < 0 ? '-$' : '$' }{ abbreviateNumber(getValue(nonprofit_finances, 'excess', publishYear)).replace('-', '') }</span> in excess
+        <span>
+          {#if getValue(nonprofit_finances, 'excess', publishYear)}
+            { getValue(nonprofit_finances, 'excess', publishYear) < 0 ? '-$' : '$' }{ abbreviateNumber(getValue(nonprofit_finances, 'excess', publishYear)).replace('-', '') }
+          {:else}
+            NA
+          {/if}
+        </span> in excess
       </div>
     </div>
 
