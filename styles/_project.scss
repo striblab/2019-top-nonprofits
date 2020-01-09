@@ -30,6 +30,21 @@ $color-categories: (
   }
 }
 
+a {
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+a,
+a:visited {
+  box-shadow: 0 1.5px 0 #3B3939;
+  color: inherit;
+  padding: 0;
+}
+a:hover {
+  box-shadow: 0 1.5px 0 #0A0203;
+  color: inherit;
+}
+
 .nowrap-item {
   display: inline-block;
   white-space: nowrap;
