@@ -30,21 +30,25 @@ $color-categories: (
   }
 }
 
+.nowrap-item, .summary {
+
 a {
   transition: all 0.25s ease;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 a,
 a:visited {
-  box-shadow: 0 1.5px 0 #3B3939;
+  box-shadow: 0 1.5px 0 #3B3939 !important;
   color: inherit;
   padding: 0;
 }
 a:hover {
-  box-shadow: 0 1.5px 0 #0A0203;
+  box-shadow: 0 1.5px 0 #0A0203 !important;
   color: inherit;
 }
 
+}
+    
 .nowrap-item {
   display: inline-block;
   white-space: nowrap;
